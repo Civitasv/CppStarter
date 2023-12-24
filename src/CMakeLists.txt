@@ -1,5 +1,7 @@
-add_executable(run run.c)
+add_executable(run run.cc)
 
-target_link_libraries(run ccoroutine)
+find_package(fmt REQUIRED)
 
-add_subdirectory(ccoroutine)
+target_link_libraries(run library_name fmt::fmt)
+
+add_subdirectory(library_name)

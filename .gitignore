@@ -1,4 +1,2 @@
-*.o
-compile_commands.json
-build
 out
+.DS_store
