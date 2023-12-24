@@ -6,7 +6,7 @@
             "cacheVariables": {
                 "CMAKE_EXPORT_COMPILE_COMMANDS": true,
                 "CMAKE_BUILD_TYPE": "Debug",
-                "VCPKG_INSTALLED_DIR": "${sourceDir}/bin/vcpkg_installed"
+                "VCPKG_INSTALLED_DIR": "${sourceDir}/vendor/vcpkg_installed"
             },
             "toolchainFile": "./vendor/vcpkg/scripts/buildsystems/vcpkg.cmake"
         },
