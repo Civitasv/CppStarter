@@ -19,3 +19,9 @@
     ├── CMakeLists.txt
     └── vcpkg                 -- Project's vcpkg
 ```
+
+## Feature
+
+1. Self-contained, you don't need to build and install dependencies yourself.
+2. Modern package manager, vcpkg.
+3. Easy-share cmake configuration using presets.
