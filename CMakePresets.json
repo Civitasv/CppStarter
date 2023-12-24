@@ -8,7 +8,8 @@
                 "CMAKE_BUILD_TYPE": "Debug",
                 "VCPKG_INSTALLED_DIR": "${sourceDir}/vendor/vcpkg_installed"
             },
-            "toolchainFile": "./vendor/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            "toolchainFile": "./vendor/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "binaryDir": "out/build"
         },
         {
             "name": "Debug",
