@@ -1,6 +1,0 @@
-echo "====== Bootstrap vcpkg ======"
-sh ./vendor/vcpkg/bootstrap-vcpkg.sh
-echo "====== Install necessary packages ======"
-./vendor/vcpkg/vcpkg install
-
-alias vcpkg=./vendor/vcpkg/vcpkg
